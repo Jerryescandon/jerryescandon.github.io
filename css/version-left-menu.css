@@ -1,0 +1,207 @@
+
+body.index-left-menu {
+	background-color:#f5f2f5;
+}
+
+
+/************************************
+MENU
+************************************/
+
+#openmenu {
+    background: #fff;
+    height: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    border-right: 2px solid #f5f2f5;
+    z-index: 10001;
+    min-width: 180px;
+    top: 0;
+    bottom: 0;
+}
+
+.collapse.in {
+    left: 0 !important;
+}
+
+.collapsing {
+    left: -180px !important;
+}
+
+.menu-wrapper {
+    background: #ffffff;
+    height: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    bottom: 0;
+}
+
+.sidebar-menu {
+    height: 100%;
+    overflow: auto;
+    border-right: 1px solid #f5f2f5;
+    width: 90px;
+}
+
+.logo {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.closemenu,
+.menu-opener {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    padding-top: 25px;
+    border-top: 1px solid #f5f2f5;
+    text-align: center;
+}
+
+.parallax {
+    height: 80vh;
+    background-color: #eeeff3;
+}
+
+.normal-menu {
+    position: absolute;
+    top: 42%;
+    left: 0;
+    right: 0;
+    margin: -20px auto;
+    width: 100%;
+}
+
+.normal-menu ul {
+    padding: 0;
+    list-style: none;
+}
+
+.normal-menu ul li {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.normal-menu ul li a {
+    font-size: 12px;
+    color: #777777;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.normal-menu ul li.active a {
+    color: #000000;
+}
+
+.menu-center a {
+    font-size: 12px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: #000000;
+    letter-spacing: 4px;
+}
+.work-desc {
+    padding:10px 20px 30px;
+    background-color: #ffffff;
+}
+.wb {
+    border-color: #f5f2f5 !important;
+}
+
+.welcome-box h2 {
+    text-transform: capitalize;
+    font-size: 80px;
+}
+
+.welcome-box p {
+    padding-bottom: 40px;
+}
+
+
+div.frameT {
+    display: table;
+    height: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+
+div.frameTC {
+    display: table-cell;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.site-wrapper {
+	margin-left: 90px;
+}
+
+@media screen and (max-width: 992px) {
+    .welcome-box h2 {
+        font-size: 44px;
+    }
+}
+@media screen and (max-width: 468px) {
+    .welcome-box h2 {
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .parallax {
+        background-image: none !important;
+        background-color: #eeeff3 !important;
+    }
+    .menu-wrapper {
+        background: #ffffff;
+        height: 90px;
+        left: 0;
+        width: 100%;
+        right: 0;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        z-index: 10000;
+        top: 0;
+        bottom: auto;
+    }
+    .closemenu,
+    .menu-opener {
+        border-top: 0 none;
+        bottom: auto;
+        left: auto;
+        top: 35px;
+        padding-top: 0;
+        position: absolute;
+        right: 20px;
+        text-align: center;
+    }
+    .site-wrapper {
+        margin: 0;
+    }
+    .logo {
+        top: 7px;
+        left: 20px;
+        right: auto;
+    }
+    .closemenu,
+    .sidebar-menu .menu-center {
+        display: none;
+    }
+    #openmenu .logo {
+        margin-left: 43px;
+    }
+}
