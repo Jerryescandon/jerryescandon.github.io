@@ -1,2 +1,3 @@
 # jerryescandon.github.io
-description goes here
+
+You can view this site at www.jerryescandon.com
