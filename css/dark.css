@@ -1,0 +1,80 @@
+
+.pager li > a, .pager li > span,
+a,
+h1, h2, h3, h4, h5, h6 {
+    color:#ffffff;
+}
+
+
+.pager li > a, .pager li > span,
+.section.lb,
+.client-box,
+.service-box,
+.makeborder-top,
+blockquote,
+.makeborder-left,
+.makeborder-right,
+.makeborder-bottom {
+    background: #1d1d1d;
+}
+
+.blog-box,
+.page-content,
+.instagram-wrapper,
+.sidebar .widget,
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus, 
+.navbar-default .navbar-nav > li a, 
+.navbar-default .navbar-nav > li:hover a, 
+.navbar-default .navbar-nav > li:focus a, 
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default,
+.header,
+.insta-title,
+.section {
+    background-color: #121212;
+}
+.form-control {
+    border-color:#a0a0a0 !important;
+}
+.btn-default, .btn-primary {
+    border-color:#a0a0a0;
+    color: #a0a0a0;
+}
+.wb, .section.wb,
+.post-bottom,
+.footer {
+    border-top-color: #212121 !important
+}
+.pricing-table li,
+.service-box,
+.post-publish .fa,
+.contact-form .form-control,
+.sidebar .form-control,
+.pricing-table,
+.post-publish,
+.client-box,
+.navbar-nav .dropdown-menu,
+.navbar-nav .dropdown-menu li,
+.navbar-nav .dropdown-menu {
+    border-color:#212121 !important;
+}
+
+.portfolio-filter ul li a,
+.social a,
+.navbar-default .navbar-nav > li > a {
+    color:#ffffff !important;
+}
+.pricing-table li,
+.navbar-nav .dropdown-menu li .dropdown-menu li a, 
+.navbar-nav .dropdown-menu > li > a {
+    color: #a0a0a0 !important; 
+}
+body,
+p {
+    color: #a0a0a0;
+}
+
